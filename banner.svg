@@ -1,0 +1,139 @@
+<svg viewBox="0 0 1500 340" xmlns="http://www.w3.org/2000/svg" width="1500" height="340">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#060B16;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0D1525;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1E3A5F;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4A90D9;stop-opacity:0.3" />
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4A90D9;stop-opacity:0" />
+      <stop offset="50%" style="stop-color:#4A90D9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4A90D9;stop-opacity:0" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#0F1E30" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1500" height="340" fill="url(#bg)"/>
+  <rect width="1500" height="340" fill="url(#grid)" opacity="0.6"/>
+
+  <!-- Subtle radial glow left -->
+  <ellipse cx="340" cy="170" rx="320" ry="200" fill="#0D2040" opacity="0.5"/>
+
+  <!-- Top border accent line -->
+  <rect x="0" y="0" width="1500" height="1.5" fill="url(#accentLine)" opacity="0.6"/>
+  <!-- Bottom border accent line -->
+  <rect x="0" y="338.5" width="1500" height="1.5" fill="url(#accentLine)" opacity="0.4"/>
+
+  <!-- Left vertical accent -->
+  <rect x="60" y="60" width="1" height="220" fill="#4A90D9" opacity="0.25"/>
+  <rect x="60" y="60" width="8" height="1" fill="#4A90D9" opacity="0.4"/>
+  <rect x="60" y="280" width="8" height="1" fill="#4A90D9" opacity="0.4"/>
+
+  <!-- UNITERA wordmark -->
+  <text x="100" y="145" font-family="'Courier New', Courier, monospace" font-size="72" font-weight="700" letter-spacing="12" fill="#E8EDF5" filter="url(#softglow)">UNITERA</text>
+
+  <!-- Tagline -->
+  <text x="102" y="182" font-family="'Courier New', Courier, monospace" font-size="15" letter-spacing="4" fill="#4A90D9" opacity="0.9">AI GOVERNANCE OPERATING SYSTEM</text>
+
+  <!-- Divider -->
+  <rect x="100" y="200" width="340" height="0.5" fill="#1E3A5F"/>
+
+  <!-- Sub-tagline -->
+  <text x="102" y="222" font-family="'Courier New', Courier, monospace" font-size="12" letter-spacing="2" fill="#4A6A8A" opacity="0.8">governance-first · backend authority · traceable commit</text>
+
+  <!-- Separator line -->
+  <rect x="620" y="50" width="0.5" height="240" fill="#1A2F45" opacity="0.8"/>
+
+  <!-- Flow chain — right section -->
+  <!-- Title -->
+  <text x="670" y="90" font-family="'Courier New', Courier, monospace" font-size="10" letter-spacing="3" fill="#2E5A8A" opacity="0.9">COMMIT FLOW</text>
+
+  <!-- Flow nodes -->
+  <!-- Node 1: INTAKE -->
+  <circle cx="720" cy="155" r="22" fill="#0A1828" stroke="#1E3A5F" stroke-width="1"/>
+  <circle cx="720" cy="155" r="5" fill="#4A90D9" filter="url(#glow)"/>
+  <text x="720" y="196" font-family="'Courier New', Courier, monospace" font-size="9" fill="#4A6A8A" text-anchor="middle" letter-spacing="1">INTAKE</text>
+
+  <!-- Arrow -->
+  <line x1="744" y1="155" x2="783" y2="155" stroke="#1E3A5F" stroke-width="1"/>
+  <polygon points="783,151 791,155 783,159" fill="#1E3A5F"/>
+
+  <!-- Node 2: DRAFT -->
+  <circle cx="813" cy="155" r="22" fill="#0A1828" stroke="#1E3A5F" stroke-width="1"/>
+  <circle cx="813" cy="155" r="5" fill="#4A90D9" filter="url(#glow)"/>
+  <text x="813" y="196" font-family="'Courier New', Courier, monospace" font-size="9" fill="#4A6A8A" text-anchor="middle" letter-spacing="1">DRAFT</text>
+
+  <!-- Arrow -->
+  <line x1="837" y1="155" x2="876" y2="155" stroke="#1E3A5F" stroke-width="1"/>
+  <polygon points="876,151 884,155 876,159" fill="#1E3A5F"/>
+
+  <!-- Node 3: REVIEW -->
+  <circle cx="906" cy="155" r="22" fill="#0A1828" stroke="#1E3A5F" stroke-width="1"/>
+  <circle cx="906" cy="155" r="5" fill="#4A90D9" filter="url(#glow)"/>
+  <text x="906" y="196" font-family="'Courier New', Courier, monospace" font-size="9" fill="#4A6A8A" text-anchor="middle" letter-spacing="1">REVIEW</text>
+
+  <!-- Arrow -->
+  <line x1="930" y1="155" x2="969" y2="155" stroke="#1E3A5F" stroke-width="1"/>
+  <polygon points="969,151 977,155 969,159" fill="#1E3A5F"/>
+
+  <!-- Node 4: APPROVAL -->
+  <circle cx="999" cy="155" r="22" fill="#0A1828" stroke="#1E3A5F" stroke-width="1"/>
+  <circle cx="999" cy="155" r="5" fill="#4A90D9" filter="url(#glow)"/>
+  <text x="999" y="196" font-family="'Courier New', Courier, monospace" font-size="9" fill="#4A6A8A" text-anchor="middle" letter-spacing="1">APPROVE</text>
+
+  <!-- Arrow -->
+  <line x1="1023" y1="155" x2="1062" y2="155" stroke="#1E3A5F" stroke-width="1"/>
+  <polygon points="1062,151 1070,155 1062,159" fill="#1E3A5F"/>
+
+  <!-- Node 5: COMMIT — highlighted -->
+  <circle cx="1092" cy="155" r="24" fill="#0D2040" stroke="#4A90D9" stroke-width="1.5" filter="url(#glow)"/>
+  <circle cx="1092" cy="155" r="7" fill="#4A90D9" filter="url(#glow)"/>
+  <text x="1092" y="199" font-family="'Courier New', Courier, monospace" font-size="9" fill="#4A90D9" text-anchor="middle" letter-spacing="1">COMMIT</text>
+
+  <!-- Arrow -->
+  <line x1="1118" y1="155" x2="1157" y2="155" stroke="#1E3A5F" stroke-width="1"/>
+  <polygon points="1157,151 1165,155 1157,159" fill="#1E3A5F"/>
+
+  <!-- Node 6: AUDIT -->
+  <circle cx="1187" cy="155" r="22" fill="#0A1828" stroke="#1E3A5F" stroke-width="1"/>
+  <circle cx="1187" cy="155" r="5" fill="#2E6A4A" filter="url(#glow)"/>
+  <text x="1187" y="196" font-family="'Courier New', Courier, monospace" font-size="9" fill="#4A6A8A" text-anchor="middle" letter-spacing="1">AUDIT</text>
+
+  <!-- Policy gate markers below flow -->
+  <text x="906" y="230" font-family="'Courier New', Courier, monospace" font-size="8" fill="#2E5A8A" text-anchor="middle" opacity="0.7">policy gate</text>
+  <rect x="885" y="218" width="42" height="0.5" fill="#1E3A5F" opacity="0.6"/>
+
+  <text x="999" y="230" font-family="'Courier New', Courier, monospace" font-size="8" fill="#2E5A8A" text-anchor="middle" opacity="0.7">explicit sign-off</text>
+  <rect x="972" y="218" width="54" height="0.5" fill="#1E3A5F" opacity="0.6"/>
+
+  <text x="1092" y="232" font-family="'Courier New', Courier, monospace" font-size="8" fill="#4A90D9" text-anchor="middle" opacity="0.8">traceable</text>
+  <rect x="1068" y="218" width="48" height="0.5" fill="#4A90D9" opacity="0.4"/>
+
+  <!-- Bottom label -->
+  <text x="953" y="268" font-family="'Courier New', Courier, monospace" font-size="9" fill="#1E3A5F" text-anchor="middle" letter-spacing="2">AI MAY DRAFT — GOVERNANCE CONTROLS THE COMMIT</text>
+
+  <!-- Corner marks -->
+  <rect x="1440" y="60" width="1" height="220" fill="#4A90D9" opacity="0.15"/>
+  <rect x="1432" y="60" width="8" height="1" fill="#4A90D9" opacity="0.3"/>
+  <rect x="1432" y="280" width="8" height="1" fill="#4A90D9" opacity="0.3"/>
+</svg>
