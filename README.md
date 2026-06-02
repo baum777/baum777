@@ -1,3 +1,5 @@
+![UNITERA Banner](./banner.svg)
+
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=1000&color=4A90D9&width=650&lines=AI+Governance+Operating+System;Governed+commit+paths+%E2%80%94+not+informal+approvals;Backend+authority%2C+not+client+trust;AI+may+draft+%E2%80%94+governance+controls+the+commit)
 
 # Cheikh Fall
