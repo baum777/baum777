@@ -25,6 +25,13 @@ for proposals, RFPs, and change requests.
 ![Anthropic](https://img.shields.io/badge/Anthropic_API-CC785C?style=flat-square&logoColor=white)
 ![OpenRouter](https://img.shields.io/badge/OpenRouter_API-6366F1?style=flat-square&logoColor=white)
 
+![Claude Code](https://img.shields.io/badge/Claude_Code-CC785C?style=flat-square&logo=anthropic&logoColor=white)
+![AI Workflow Builder](https://img.shields.io/badge/AI_Workflow_Builder-7C3AED?style=flat-square&logoColor=white)
+![Agentic Workflows](https://img.shields.io/badge/Agentic_Workflows-6D28D9?style=flat-square&logoColor=white)
+![Process Automation](https://img.shields.io/badge/Process_Automation-059669?style=flat-square&logo=zapier&logoColor=white)
+![APIs](https://img.shields.io/badge/APIs-3B82F6?style=flat-square&logoColor=white)
+![AI-assisted Dev](https://img.shields.io/badge/AI--assisted_Dev-EC4899?style=flat-square&logoColor=white)
+
 ---
 
 ## What I build
@@ -33,6 +40,7 @@ for proposals, RFPs, and change requests.
 - Multi-tenant SaaS with backend-enforced authority and Row Level Security
 - AI integrations where the model drafts but the system controls the commit
 - Model-agnostic architectures where providers are swappable without changing governance logic
+- Agentic workflows and process automations using Claude Code, MCP, and API-first integrations
 
 ---
 
