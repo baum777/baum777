@@ -50,13 +50,8 @@ for proposals, RFPs, and change requests.
 |---|---|
 | [UNITERA Systems](https://www.uniterasystems.com/en) | AI Governance OS — governed commit path for business commitments |
 | [proof.uniterasystems](https://proof.uniterasystems.com) | Evidence surface — architecture reference and synthetic artifacts |
-| Sparkfined / BobbyExecute | Solana trading system with controlled execution layer |
 | Model-Agnostic Working | Portable architecture for swappable AI model providers |
 
 ---
 
-## Contact
-
 Portfolio: [portfolio.uniterasystems.com](https://portfolio.uniterasystems.com)  
-Book a call: [cal.eu/cheikh-fall](https://cal.eu/cheikh-fall)  
-Email: [briefings@uniterasystems.com](mailto:briefings@uniterasystems.com)
