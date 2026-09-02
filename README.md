@@ -17,9 +17,9 @@ In software, these relationships become explicit: context, interfaces, dependenc
 
 The interesting territory lies between free association and precise construction. Enough openness for an unexpected connection. Enough discipline to discover whether it holds.
 
+___
 
 ## UNITERA OS
----
 
 An architecture for continuity, agency and accountable action.
 
