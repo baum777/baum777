@@ -1,57 +1,33 @@
-![UNITERA Banner](./banner.svg)
+![UNITERA Banner](./banner.png)
+
+..a recurring curiosity:
+
+How can separate things become a coherent whole without losing what makes them distinct?
 
 
-# Cheikh Fall
+*the shape of things*
 
-Building **UNITERA** — a customizable AI Operating System for company-specific agentic work.
+Trees, memory, software and institutions share an interesting problem: whatever grows must somehow remain connected.
 
-I design systems that connect company context, AI agents, permissions, human
-oversight, and business software so agentic work can move from intention to
-verified effect without relying on informal trust.
-
-> AI may plan and act. UNITERA governs its authority, execution, and evidence.
-
+Roots carry history. Branches explore possibility. Boundaries give things enough shape to interact.
 ---
 
-## UNITERA
+In software, these relationships become explicit: context, interfaces, dependencies, permissions. An intuition acquires a structure that can be examined, questioned and changed.
 
-UNITERA gives companies a controlled operating environment for AI agents and
-AI-assisted workflows.
+The interesting territory lies between free association and precise construction. Enough openness for an unexpected connection. Enough discipline to discover whether it holds.
 
-The platform combines four layers:
 
-| Layer | Purpose |
-|---|---|
-| **Company Brain** | Company identity, rules, knowledge, operating context, and executable context packages |
-| **UNITERA OS** | Execution intents, capabilities, permission decisions, grants, revocation, receipts, and evidence |
-| **Modular Apps** | Business-specific workflows and agent capabilities |
-| **Connectors** | Controlled access to CRM, ERP, email, documents, and other enterprise systems |
-
-**OfferFlow** is the first First-Party App on the platform. It applies the
-UNITERA control model to proposals, RFPs, change requests, and other
-revenue-related commitments.
-
+# UNITERA OS
 ---
 
-## What I build
+An architecture for continuity, agency and accountable action.
 
-- Agentic workflow systems with explicitly bounded autonomy
-- Company-specific capability and permission models
-- Context-aware agents connected to governed company knowledge
-- Execution-control paths for internal and external business actions
-- Human, deterministic, and model-based review layers
-- Multi-tenant SaaS with server-enforced identity and authority
-- Evidence, receipt, verification, and audit-oriented runtime systems
-- Model-agnostic architectures with replaceable AI providers
-- API-first connectors between agents and existing enterprise software
+UNITERA gives this way of thinking a larger form.
 
----
+Its vision is an environment where knowledge, people and artificial intelligence can work together across time — carrying context forward, developing ideas and acting within understandable boundaries.
 
-## Architecture principles
+An observation can become a question. A question can grow into a proposal. A proposal can lead to an authorized action whose consequences are checked. What happened can then inform what comes next.
 
-```text
-Context informs the agent.
-Capabilities define what is technically possible.
-Policies define what is permitted.
-Grants authorize one bounded execution.
-Receipts and verification prove what happened.
+Each transition has its own meaning. Remembering something does not make it true. Understanding an action does not grant permission to perform it. Reporting success does not establish its outcome.
+
+These distinctions give a growing system something to hold on to.
