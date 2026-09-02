@@ -1,6 +1,5 @@
 ![UNITERA Banner](./banner.svg)
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=1000&color=4A90D9&width=700&lines=Customizable+AI+Operating+System;Company+Brain+%2B+Execution+Control;Capabilities%2C+Permissions%2C+Evidence;Agentic+work+under+defined+authority)
 
 # Cheikh Fall
 
